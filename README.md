@@ -24,6 +24,21 @@ yarn add vue-plugin-load-script
   Vue.use(LoadScript);
 ```
 
+### With TypeScript support
+
+```typescript
+// in main.ts
+import LoadScript from 'vue-plugin-load-script';
+
+Vue.use(LoadScript);
+```
+declare module 'vue-plugin-load-script';
+```
+
+``` typescript
+// in imports.d.ts
+
+
 ```javascript
   // As a global method
   Vue.loadScript("https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY")
