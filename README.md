@@ -32,11 +32,11 @@ import LoadScript from 'vue-plugin-load-script';
 
 Vue.use(LoadScript);
 ```
-declare module 'vue-plugin-load-script';
-```
 
 ``` typescript
 // in imports.d.ts
+declare module 'vue-plugin-load-script';
+````
 
 
 ```javascript
